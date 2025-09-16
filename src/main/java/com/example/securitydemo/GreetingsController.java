@@ -26,6 +26,7 @@ import java.util.stream.Collectors;
 @RestController
 public class GreetingsController {
 
+    @Autowired
     private AuthenticationManager authenticationManager;
 
     @Autowired
